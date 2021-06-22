@@ -12,7 +12,7 @@ Author shefas
 const { composeApi, ApiSettings } = require("@burstjs/core");
 const axios = require("axios");
 
-const NODE = "http://127.0.0.1:6876"; //if using testnet set to "http://127.0.0.1:6876", realnet "http://127.0.0.1:8125"
+const NODE = "http://127.0.0.1:6876"; //if using testnet set to "http://127.0.0.1:6876", realnet "http://127.0.0.1:8125", remote testnet node http://nivbox.co.uk:6876
 
 const apiSettings = new ApiSettings(NODE, "burst");
 const api = composeApi(apiSettings);
